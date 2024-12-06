@@ -700,84 +700,6 @@ margin-top: 2px;
     }
 
 
-          /* Laptop Large */
-
-
-
-@media screen and (max-width: 1440px) and (min-width: 1025px) {
-
-  #page1-content p {
-    font-size: large;
-  }
-
-  #page2-content-moremenu {
-    margin-left: 611px;
-   }
-
-
-   #page3-content-box1 h2 {
-    margin-left: 50px;
-  }
-
-
-  #page3-content-box2 h2 {
-    margin-left: 80px;
-    margin-top: 6px;
-  }
-  
-  #page3-content-box3 {
-   transform: translate(0px, -40px);
-    
-  }
-  
-  #page3-content-box3 h2 {
-    margin-top: 28px;
-    margin-left: 20px;
-  
-  }
-
-
-  #page3-content-box4 {
-   transform: translate(20px, 55px);
-    
-  }
-  
-  #page3-content-box4 h2 {
-  margin-left: 60px;
-  margin-top: 29px;  
-  }
-  
-  
-  
-  
-  #page3-content-box5 {
-    transform: translate(10px, -25px);
-    
-  }
-  
-  #page3-content-box5 h2 {
-    margin-top: 19px;
-    margin-left: 20px;
-  
-  }
-
-
-  #footer-link-worldwide {
-    transform: translate(-50px, 1px);
-  }
-
-  #footer-link {
-    margin-left: -55px;
-  }
-  
-  #footer-smicon {
-    transform: translate(-2px, -57px);
-
-  }
-
-}
-
-
 
         /* 4K 2560px */
 
@@ -947,7 +869,84 @@ margin-top: 2px;
 
  }
 
+
+
+
+
   
+ /* Laptop Large */
 
 
-                                
+ /* @media screen and (max-width: 1440px) and (min-width: 1025px) {
+
+  #page1-content p {
+    font-size: large;
+  }
+
+  #page2-content-moremenu {
+    margin-left: 611px;
+   }
+
+
+   #page3-content-box1 h2 {
+    margin-left: 50px;
+  }
+
+
+  #page3-content-box2 h2 {
+    margin-left: 80px;
+    margin-top: 6px;
+  }
+  
+  #page3-content-box3 {
+   transform: translate(0px, -40px);
+    
+  }
+  
+  #page3-content-box3 h2 {
+    margin-top: 28px;
+    margin-left: 20px;
+  
+  }
+
+
+  #page3-content-box4 {
+   transform: translate(20px, 55px);
+    
+  }
+  
+  #page3-content-box4 h2 {
+  margin-left: 60px;
+  margin-top: 29px;  
+  }
+  
+  
+  
+  
+  #page3-content-box5 {
+    transform: translate(10px, -25px);
+    
+  }
+  
+  #page3-content-box5 h2 {
+    margin-top: 19px;
+    margin-left: 20px;
+  
+  }
+
+
+  #footer-link-worldwide {
+    transform: translate(-50px, 1px);
+  }
+
+  #footer-link {
+    margin-left: -55px;
+  }
+  
+  #footer-smicon {
+    transform: translate(-2px, -57px);
+
+  }
+
+}
+ */
