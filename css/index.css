@@ -1,0 +1,445 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: #333; 
+    width: 100%;
+    height: 15%;
+   position: fixed;
+   z-index: 1;
+   
+   
+}
+
+.navbar-link {
+     display: flex;
+    align-items: center ;
+    justify-content: right;
+    transform: translate(-20px, -48px);
+    gap: 50px; 
+}
+
+.navbar-link a {
+    text-decoration: none; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+}
+
+#navbar-logo {
+    width: 70px;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 20px;
+    transform: translate(0px, 9px);
+}
+
+#navbar-register {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transform: translate(40px, 0px);
+}
+#navbar-login {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+} 
+
+/* fake-navbar */
+
+#fake-navbar {
+    width: 100%;
+    height: 15%;
+}
+
+/* Page1 */
+
+#page1 {
+    width: 100%;
+    height: 85%;
+   
+}
+  /* For Background Image */
+  
+  #page1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #page1::before {
+    content: '';
+    position: absolute;
+    top:  0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../bg-image/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(50%);
+
+
+  }
+
+  #page1-content {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+
+    
+  }
+  
+  #page1-content h1{
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #page1-content p{
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 85px;
+  }
+
+  #page1-content strong {
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  #page1-content-menu h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+
+  }
+
+  /* page2 */
+
+  #page2 {
+    width: 100%;
+    height: 85%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+ #page2-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+ }
+
+ /* box1 */
+
+ #page2-content-box1 {
+  width: 50%;
+  height: 100%;
+ }
+
+ /* box2 */
+
+ #page2-content-box2 {
+  width: 50%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 80px;
+ }
+
+ #page2-content-box2 h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+ }
+
+ #page2-content-box2 p {
+text-align: justify;
+margin-bottom: 50px;
+ }
+
+ #page2-content-box2 strong {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 100px;
+ 
+ }
+
+ #page2-content-box2 a {
+  background-color: #007bff;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+
+ }
+
+ /* more-menu */
+
+ #page2-content-moremenu {
+  margin-top: 100px;
+  margin-left: 515px;
+ }
+ #page2-content-moremenu a {
+ color: #fff;
+ text-decoration: none;
+ padding: 10px 20px;
+ border-radius: 20px;
+ background-color: #007bff;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Page3 */
+
+#page3 {
+  width: 100%;
+  height: 85%;
+}
+
+#page3-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+
+#page3-ourchefs h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+  margin-top: 147px;
+  background-color: #333;
+  text-align: center;
+  padding: 5px;
+
+}
+
+ #page3-content-box1 {
+  width: 20%;
+  height: 50%;
+  margin-left: 30px;
+  
+}
+
+#page3-content-box1 h2 {
+  margin-left: 30px;
+margin-top: 32px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#page3-content-box1 strong {
+  color: #ff0000;
+}
+
+#page3-content-box2 {
+  width: 20%;
+  height: 50%;
+}
+
+#page3-content-box2 h2 {
+  margin-left: 50px;
+  margin-top: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+#page3-content-box3 {
+  width: 15%;
+  height: 50%;
+ transform: translate(0px, -30px);
+  
+}
+
+#page3-content-box3 h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 23px;
+
+}
+
+
+#page3-content-box4 {
+  width: 22%;
+  height: 50%;
+ transform: translate(20px, 52px);
+  
+}
+
+#page3-content-box4 h2 {
+margin-left: 50px;
+margin-top: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#page3-content-box5 {
+  width: 15%;
+  height: 50%;
+  transform: translate(10px, -20px);
+  
+}
+
+#page3-content-box5 h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 18px;
+
+}
+
+
+#page3-aboutchefs {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+  margin-top: 50px;
+  
+  }
+  
+  #page3-aboutchefs p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+    }
+  
+    #page3-aboutchefs a {
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      
+    }
+
+
+/* Footer */
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 150px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#footer-link-worldwide {
+  transform: translate(-50px, 0px);
+}
+#footer-link-worldwide a {
+  text-decoration: none;
+  
+}
+
+.ri-global-line {
+  margin: 5px;
+}
+
+ #footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  margin-left: 120px;
+ 
+}
+
+#footer-link a {
+  color: #fff; 
+}
+
+  #footer-content {
+ padding: 20px;
+   
+}
+
+#footer-content p{
+  margin-left: 295px;
+
+}
+
+/* footer-smicon */
+
+#footer-smicon {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 132px;
+  transform: translate(-2px, -57px);
+
+}
+
+#footer-smicon h5 {
+  margin-bottom: 10px;
+  
+}
+
+#footer-smicon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+
+}
+
+/* Hover */
+
+.navbar-link a:hover {
+  color: lightblue;
+
+}
+
+#navbar-register:hover {
+  background-color: lightblue;
+
+}
+
+#navbar-login:hover {
+  background-color: lightblue;
+}
+
+#page2-content-box2 a:hover {
+  background-color: lightblue;
+}
+
+#page2-content-moremenu a:hover {
+  background-color: lightblue;
+}
+
+#page4-aboutchefs a:hover {
+  background-color: lightblue;
+}
+
+#footer-link-worldwide a:hover {
+  color: lightblue;
+}
+
+#footer-link a:hover {
+  color: lightblue;
+}
+
+
+/* For Media Queries Overflow Hidden */
+
+.container {
+  overflow: hidden;
+}
+
+
+
